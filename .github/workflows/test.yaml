@@ -1,0 +1,13 @@
+name: My First GitHub Actions  # Workflow name
+
+# When this workflow should run
+on: [push]  # triggers on any push
+
+jobs:
+  build-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "hello world !!!!!"
+      - name: Introduce Myself
+        run: echo "i am oumaima"
